@@ -1,0 +1,34 @@
+{
+  "name": "iteratio-plugin-retry",
+  "version": "0.1.0",
+  "description": "Retry plugin for iteratio",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "iteratio",
+    "iteratio-plugin"
+  ],
+  "author": "Rob Truitt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjtruitt/iteratio-plugin-retry.git"
+  },
+  "peerDependencies": {
+    "iteratio": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run"
+  }
+}

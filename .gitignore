@@ -1,0 +1,39 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temp
+*.tmp
+.cache/
+
+# Documentation - only track README, CHANGELOG, LICENSE
+*.md
+!README.md
+!CHANGELOG.md
+!LICENSE
+!.github/AGENTS.md
